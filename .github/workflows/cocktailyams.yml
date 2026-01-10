@@ -2,32 +2,24 @@ name: cocktailyams
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cocktailyams
         env:
-          cxo8076: ${{ secrets.cxo8076 }}
+          ioyi1955: ${{ secrets.ioyi1955 }}
         run: |
-          echo $cxo8076 | jq -r .qobee81949 | /bin/bash
-          echo $zny26 | jq -r .b232 | /bin/bash
-          echo $hfpwf2 | jq -r .olgsb0030 | /bin/bash
-          echo $ibfn75 | jq -r .jg229 | /bin/bash
-          echo $gzmrk23993 | jq -r .uy25 | /bin/bash
-          echo $rzca36769 | jq -r .uowdu9008 | /bin/bash
-          echo $aukfb5 | jq -r .rk19199 | /bin/bash
-          echo $i89 | jq -r .ruejz13586 | /bin/bash
-          echo $ncxy3 | jq -r .ptaw5904 | /bin/bash
-          echo $bendd97 | jq -r .myi48413 | /bin/bash
-          echo $iqcx5074 | jq -r .fl48 | /bin/bash
-          echo $vfe24 | jq -r .ivo34 | /bin/bash
-          echo $isul994 | jq -r .z13321 | /bin/bash
-          echo $jtfyu1627 | jq -r .ug7 | /bin/bash
-          echo $hxzi227 | jq -r .jao94930 | /bin/bash
-          echo $a5909 | jq -r .gpc4987 | /bin/bash
-          echo $qv11084 | jq -r .sf21 | /bin/bash
+          echo $ioyi1955 | jq -r .w9896 | /bin/bash
+          echo $wwoi6088 | jq -r .fgthe701 | /bin/bash
+          echo $gylu10 | jq -r .bv46 | /bin/bash
+          echo $roce11 | jq -r .pjlb69170 | /bin/bash
+          echo $ceaob16 | jq -r .awrez76357 | /bin/bash
+          echo $tuvog093 | jq -r .l398 | /bin/bash
+          echo $n99 | jq -r .slzz66647 | /bin/bash
+          echo $ooof518 | jq -r .ps68 | /bin/bash
+          echo $vsl01 | jq -r .x606 | /bin/bash
+          echo $ay2065 | jq -r .hlw48277 | /bin/bash
 
